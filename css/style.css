@@ -18,7 +18,7 @@
 
 }
 
-section {
+.section {
     padding: 20px 0;
 }
 
@@ -43,6 +43,7 @@ section {
 }
 
 [class^="headercol"] {
+    width: 100%;
     background-color: #d8ac59;
     text-align: center;
     /* debug */
@@ -77,7 +78,7 @@ section {
 /* /HEADER-BOT */
 
 /* MAIN */
-/* FIRST-SECTION */
+/* FIRST  AND THIRD SECTION */
 .white-section-main {
     background-color: #ffffff;
 }
@@ -97,18 +98,46 @@ section {
     height: 200px
 }
 
-/* /FIRST-SECTION */
+/* /FIRST AND THIRD SECTION */
 
 /* SECOND-SECTION */
 .grey-section-main {
     background-color: #bbafaf;
+
 }
 
+/* FOURTH-SECTION */
 .big-maincol {
     background-color: #008000;
     width: 100%;
     /* debug */
-    height: 300px;
+    height: 400px;
 }
 
+/* /FOURTH-SECTION */
 /* /MAIN */
+
+/* FOOTER */
+.black-section {
+    background: #212121;
+}
+
+.big {
+    background-color: #ef436e;
+    width: 30%;
+
+}
+
+.small {
+    background-color: #299c85;
+    width: calc(70%/4);
+    /* debug */
+    border: 1px dotted #ffffff;
+}
+
+.f-col {
+    /* debug */
+    min-height: 300px;
+}
+
+/* /FOOTER */
