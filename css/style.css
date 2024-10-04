@@ -40,6 +40,8 @@
 
 .row {
     display: flex;
+
+
 }
 
 [class^="headercol"] {
@@ -118,8 +120,10 @@
 /* /MAIN */
 
 /* FOOTER */
+/* first section footer*/
 .black-section {
     background: #212121;
+
 }
 
 .big {
@@ -140,4 +144,20 @@
     min-height: 300px;
 }
 
+/* /first section footer */
+
+/* second section footer */
+.row-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #64d9b4;
+}
+
+.colf {
+    background-color: #f86c8d;
+    /* debug */
+}
+
+/* /second section footer */
 /* /FOOTER */
